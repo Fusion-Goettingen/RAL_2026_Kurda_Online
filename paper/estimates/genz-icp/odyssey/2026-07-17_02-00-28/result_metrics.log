@@ -1,0 +1,11 @@
+──────────────────────── Results for OdysseyDataset Sequence ParkingGarage3 ────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 0.359 | %     |
+|        Average Rotational Error | 0.007 | deg/m |
+| Absolute Trajectory Error (ATE) | 0.555 | m     |
+| Absolute Rotational Error (ARE) | 0.018 | rad   |
+|               Average Frequency |  44   | Hz    |
+|                 Average Runtime |  23   | ms    |
++---------------------------------+-------+-------+

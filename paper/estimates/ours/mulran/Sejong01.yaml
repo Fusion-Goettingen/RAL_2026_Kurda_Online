@@ -1,0 +1,51 @@
+config:
+  dataloader:
+    type: MulRan
+    base_dir: /media/fusion/dataset-ssd/datasets/MulRan
+    seq: Sejong01
+    min_range: 3.0
+    max_range: 240.0
+    correct: true
+  preprocessing:
+    deskew: true
+    voxelsize_1: 0.4
+    voxelsize_2: 1.8
+    motion_model: constant_velocity
+  registration:
+    adaptive_threshold: const_max_range
+    min_motion_threshold: 0.1
+    tau: 0.24064086942666096
+    max_matching_distance: 2.1657678248399486
+    max_icp_iterations: 100
+    min_icp_magnitude: 1.0e-05
+    min_num_correspondences: 509
+    adaptive_min_num_correspondeces_factor: 0.5
+    levenberg_alpha: 1.0
+    levenberg_lambda: 0.0
+    outer_threads: 5
+    inner_threads: 4
+  mapping:
+    voxelsize: 0.5
+    max_points_per_voxel: 5
+    min_keyframe_distance: 16.0
+    max_keyframe_distance: 80.0
+    voxel_prune_distance: -1.0
+  posegraph:
+    gating_distance: 0.5
+    max_iterations: 100
+    min_optimization_magnitude: 1.0e-05
+    uncertainty_propagation: barfoot
+    edge_composition: keep_all
+    information: diagonal
+    tau: 0.5
+    optimize: true
+    only_last: false
+report:
+  frames_processed: 28779
+  total_time_sec: 1821.7891692110225
+  fps: 15.79710785769111
+  status: SUCCESS
+  ape: .nan
+  rpe_30: .nan
+  rpe_100: .nan
+  kitti: .nan

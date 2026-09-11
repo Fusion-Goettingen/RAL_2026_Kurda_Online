@@ -1,0 +1,12 @@
+─────────────────────────── Results for MulranDataset Sequence Sejong03 ────────────────────────────
++---------------------------------+---------+----------+
+|                          Metric |  Value  | Units    |
++=================================+=========+==========+
+|       Average Translation Error |  4.905  | %        |
+|        Average Rotational Error |  0.008  | deg/m    |
+| Absolute Trajectory Error (ATE) | 259.465 | m        |
+| Absolute Rotational Error (ARE) |  0.290  | rad      |
+|               Average Frequency |   92    | Hz       |
+|                 Average Runtime |   11    | ms       |
+|        Number of closures found |    0    | closures |
++---------------------------------+---------+----------+

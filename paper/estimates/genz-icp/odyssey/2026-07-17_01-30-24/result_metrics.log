@@ -1,0 +1,11 @@
+──────────────────────── Results for OdysseyDataset Sequence HighwayTunnel1 ────────────────────────
++---------------------------------+----------+-------+
+|                          Metric |  Value   | Units |
++=================================+==========+=======+
+|       Average Translation Error |  0.902   | %     |
+|        Average Rotational Error |  0.004   | deg/m |
+| Absolute Trajectory Error (ATE) | 1799.823 | m     |
+| Absolute Rotational Error (ARE) |  0.506   | rad   |
+|               Average Frequency |    33    | Hz    |
+|                 Average Runtime |    30    | ms    |
++---------------------------------+----------+-------+

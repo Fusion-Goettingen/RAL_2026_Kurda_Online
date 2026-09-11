@@ -1,0 +1,11 @@
+───────────────────── Results for OdysseyDataset Sequence UndergroundCarPark3 ──────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 0.781 | %     |
+|        Average Rotational Error | 0.009 | deg/m |
+| Absolute Trajectory Error (ATE) | 0.200 | m     |
+| Absolute Rotational Error (ARE) | 0.016 | rad   |
+|               Average Frequency |  69   | Hz    |
+|                 Average Runtime |  15   | ms    |
++---------------------------------+-------+-------+

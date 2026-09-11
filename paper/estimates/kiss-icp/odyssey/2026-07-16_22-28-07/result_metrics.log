@@ -1,0 +1,11 @@
+─────────────────────────── Results for OdysseyDataset Sequence Beltway2 ───────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 1.016 | %     |
+|        Average Rotational Error | 0.004 | deg/m |
+| Absolute Trajectory Error (ATE) | 1.976 | m     |
+| Absolute Rotational Error (ARE) | 0.023 | rad   |
+|               Average Frequency |  37   | Hz    |
+|                 Average Runtime |  28   | ms    |
++---------------------------------+-------+-------+

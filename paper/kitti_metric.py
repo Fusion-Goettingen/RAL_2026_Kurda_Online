@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Aaron Kurda
+# SPDX-License-Identifier: MIT
 # Python implementation of the KITTI odometry leaderboard metric
 # Based on the original KITTI devkit implementation (https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 import numpy as np
@@ -24,23 +26,25 @@ def __rotation_error(pose_error):
 
     return np.arccos(np.clip(d, -1, 1))
 
-
 def __translation_error(pose_error):
     return np.linalg.norm(pose_error[:-1, -1])
 
-
-def eval(
+def KITTI_metric(
     poses_gt,
     poses_es,
     lengths=[100,200,300,400,500,600,700,800],
     step_size=10,
-    normalize=True
+    normalize=True,
+    force = False,
 ):
-    if poses_gt.shape != poses_es.shape:
+    if not force and poses_gt.shape != poses_es.shape:
         print("Poses do not match")
         return np.zeros((0,11))
     assert poses_gt.ndim == 3
-    # return list for all errors
+
+    if force:
+        poses_gt = poses_gt[:len(poses_es)]
+        
     errors = []
 
     # Calculating distance of gt path

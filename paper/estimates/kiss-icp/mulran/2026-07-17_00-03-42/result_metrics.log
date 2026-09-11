@@ -1,0 +1,11 @@
+───────────────────────────── Results for MulranDataset Sequence DCC02 ─────────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 2.307 | %     |
+|        Average Rotational Error | 0.006 | deg/m |
+| Absolute Trajectory Error (ATE) | 8.701 | m     |
+| Absolute Rotational Error (ARE) | 0.039 | rad   |
+|               Average Frequency |  93   | Hz    |
+|                 Average Runtime |  11   | ms    |
++---------------------------------+-------+-------+

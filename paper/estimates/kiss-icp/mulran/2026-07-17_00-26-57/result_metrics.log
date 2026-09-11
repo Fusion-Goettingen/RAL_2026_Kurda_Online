@@ -1,0 +1,11 @@
+─────────────────────────── Results for MulranDataset Sequence Sejong02 ────────────────────────────
++---------------------------------+---------+-------+
+|                          Metric |  Value  | Units |
++=================================+=========+=======+
+|       Average Translation Error |  4.719  | %     |
+|        Average Rotational Error |  0.007  | deg/m |
+| Absolute Trajectory Error (ATE) | 347.061 | m     |
+| Absolute Rotational Error (ARE) |  0.324  | rad   |
+|               Average Frequency |   114   | Hz    |
+|                 Average Runtime |    9    | ms    |
++---------------------------------+---------+-------+

@@ -1,0 +1,11 @@
+─────────────────────────── Results for OdysseyDataset Sequence Suburb1 ────────────────────────────
++---------------------------------+--------+-------+
+|                          Metric | Value  | Units |
++=================================+========+=======+
+|       Average Translation Error | 0.877  | %     |
+|        Average Rotational Error | 0.004  | deg/m |
+| Absolute Trajectory Error (ATE) | 14.934 | m     |
+| Absolute Rotational Error (ARE) | 0.113  | rad   |
+|               Average Frequency |   41   | Hz    |
+|                 Average Runtime |   25   | ms    |
++---------------------------------+--------+-------+

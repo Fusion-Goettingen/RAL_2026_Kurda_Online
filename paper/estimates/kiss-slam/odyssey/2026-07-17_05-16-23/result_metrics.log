@@ -1,0 +1,12 @@
+─────────────────────────── Results for OdysseyDataset Sequence Suburb3 ────────────────────────────
++---------------------------------+--------+----------+
+|                          Metric | Value  | Units    |
++=================================+========+==========+
+|       Average Translation Error | 0.882  | %        |
+|        Average Rotational Error | 0.004  | deg/m    |
+| Absolute Trajectory Error (ATE) | 16.069 | m        |
+| Absolute Rotational Error (ARE) | 0.117  | rad      |
+|               Average Frequency |   29   | Hz       |
+|                 Average Runtime |   35   | ms       |
+|        Number of closures found |   0    | closures |
++---------------------------------+--------+----------+
